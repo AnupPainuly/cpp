@@ -20,3 +20,6 @@ int main(void)
 
   return 0;
 }
+/* int &r=NULL is invalid. A reference in Cpp can not be set to NULL.
+ * int &r=100 is invalid. A reference in Cpp can not be created for constants
+*/
